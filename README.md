@@ -1,0 +1,1 @@
+# nft-avatar-template-project
