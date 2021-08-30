@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "dataType": "string",
+      "path": "temp/minted.txt",
+      "connection": "STORAGE_CONNECTION",
+      "direction": "out"
+    }
+  ]
+}
